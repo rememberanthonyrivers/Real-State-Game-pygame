@@ -1,0 +1,289 @@
+Week 1: Initial Planning and Game Design
+Monday:
+
+Finalize game concept, including core mechanics (gem-matching, club-building, etc.).
+Write a short game description and basic game lore (story, characters like Cashmere, etc.).
+Tuesday:
+
+Sketch out the player progression system (how players earn gems, how gems unlock club upgrades).
+Define the four gems (Ruby, Pearl, Sapphire, Diamond) and their point system.
+Wednesday:
+
+Choose your tech stack (Pygame, SQLite, etc.).
+Create a project structure for your game (folders for assets, scripts, etc.).
+Thursday:
+
+Research tutorials on Pygame or any other libraries you’re using (if needed).
+Begin learning basic game loop mechanics in Pygame.
+Friday:
+
+Draft the UI flow for your game: main screen, gem-matching screen, and strip club screen.
+Start designing placeholder UI elements (basic buttons, menus).
+Saturday:
+
+Review and refine your game mechanics.
+Begin outlining the development schedule for the next 9 weeks.
+Sunday:
+
+Take a break or review any feedback you've received (from peers, community, etc.).
+Make any necessary adjustments to the plan.
+Week 2: Game Logic & Prototype Development
+Monday:
+
+Set up the basic game window with Pygame.
+Implement a simple game loop with basic functionality (moving objects on the screen).
+Tuesday:
+
+Start implementing the gem-matching mechanic (a basic grid of gems).
+Create logic for matching gems and awarding points.
+Wednesday:
+
+Set up the player's plot (land) and club-building screen.
+Add basic functionality for selecting the club plot and viewing the land.
+Thursday:
+
+Set up an initial point system and connect gem points to player progress.
+Create a simple UI to display current points and gems.
+Friday:
+
+Implement a basic gem-matching interaction where players can click or drag to match gems.
+Test the gem-matching mechanic for bugs.
+Saturday:
+
+Begin setting up a basic database (SQLite) to track player data (points, land, upgrades).
+Write functions to save and load player data.
+Sunday:
+
+Review progress and test the core gem-matching mechanic and player progression.
+Address any immediate bugs or issues.
+Week 3: Expanding Game Features
+Monday:
+
+Add functionality for gem-to-money conversion (player points become in-game money).
+Implement simple interactions with Cashmere, the in-game host.
+Tuesday:
+
+Begin adding interaction options in the strip club (pay for drinks, entry fees).
+Set up a basic bar/interaction UI (buttons for choosing drinks, entry, etc.).
+Wednesday:
+
+Implement simple "dance" interactions (using points to watch dancers).
+Set up basic animations for dancers (simple moving images or sprite animations).
+Thursday:
+
+Add a money system where players accumulate dollars by converting points.
+Test money flow: Make sure points-to-money conversion is working.
+Friday:
+
+Continue implementing interactions in the strip club (order drinks, watch dances).
+Polish and refine the UI elements for strip club interactions.
+Saturday:
+
+Work on upgrading the club (simple upgrades like lights or a stage).
+Test functionality for club-building upgrades.
+Sunday:
+
+Playtest the gem-matching system and strip club mechanics together.
+Identify any inconsistencies or bugs.
+Week 4: Club Customization System
+Monday:
+
+Implement the first set of club upgrades (lighting, stage design).
+Set up UI for customizing the strip club (options to buy upgrades).
+Tuesday:
+
+Create a system for unlocking upgrades as the player earns money.
+Begin adding the option to purchase new club features (DJ booth, poles, etc.).
+Wednesday:
+
+Start working on animations for upgrading the club (changing lighting, adding furniture).
+Implement visual changes in the strip club based on upgrades.
+Thursday:
+
+Integrate gem points with club-building mechanics (e.g., higher gem points unlock better upgrades).
+Test the upgrade system for bugs and balance.
+Friday:
+
+Add the option for players to choose between different upgrade types (lighting, seating, etc.).
+Polish UI for upgrades, ensuring clarity and ease of use.
+Saturday:
+
+Set up a system to save and load club upgrades from the database.
+Ensure that upgrades persist when the game is closed and reopened.
+Sunday:
+
+Test customization mechanics with multiple upgrades.
+Address any issues with saving/loading data, or upgrading visuals.
+Week 5: Adding Advanced Features
+Monday:
+
+Implement live dance functionality (spend in-game money for live dances).
+Set up basic animations or videos for live dance sequences.
+Tuesday:
+
+Continue refining live dance mechanics (allow player to select music or dancers).
+Set up randomization for dancer animations and music tracks.
+Wednesday:
+
+Add more dancers (Ruby, Pearl, Sapphire, Diamond), each with different stats and abilities.
+Test interaction with dancers (e.g., throwing money, requesting dances).
+Thursday:
+
+Implement a simple economy system where players can “make it rain” by adding money to the app.
+Set up UI buttons for special economy actions (e.g., tipping dancers, upgrading faster).
+Friday:
+
+Add more complex club interactions, like setting dance music.
+Integrate gem points with in-game economy: higher points unlock new dance features.
+Saturday:
+
+Continue refining the gameplay flow between the gem world and the strip club.
+Ensure smooth transitions between screens (gem world to club and vice versa).
+Sunday:
+
+Review and playtest the core loop: gem-matching, building, dancing, and upgrades.
+Fix any bugs or issues that arise during testing.
+Week 6: Mobile-Friendly UI and Gameplay Polish
+Monday:
+
+Refine UI to ensure it’s mobile-responsive (test on different screen sizes).
+Adjust buttons and layout for mobile compatibility.
+Tuesday:
+
+Implement touch-based controls (swiping for gem matching, tapping for club interactions).
+Ensure mobile controls feel intuitive and smooth.
+Wednesday:
+
+Polish the gem-matching mechanic (smooth transitions, better animations).
+Test gem-matching on mobile devices for performance and usability.
+Thursday:
+
+Refine player progression system (points, money, and upgrades).
+Balance in-game economy to ensure smooth progression without feeling too slow.
+Friday:
+
+Improve dancer animations and add sound effects (for throwing money, dancing, etc.).
+Implement background music and audio effects.
+Saturday:
+
+Playtest the game on mobile devices to ensure everything works as expected.
+Fix any bugs related to mobile input or performance.
+Sunday:
+
+Review the overall game experience on mobile and desktop.
+Identify areas to improve in both UI and gameplay.
+Week 7: Multiplayer and Online Integration (Optional)
+Monday:
+
+Research multiplayer functionality if you want online features.
+Set up basic online systems (leaderboards, multiplayer club-building).
+Tuesday:
+
+Implement a system for players to share their club designs or progress online.
+Add multiplayer functionality (player vs. player, or cooperative).
+Wednesday:
+
+Set up online storage for player data (e.g., cloud saves or remote database).
+Test online features to ensure smooth data syncing.
+Thursday:
+
+Continue implementing social features (share club, compete in leaderboards).
+Test multiplayer club-building or interactions.
+Friday:
+
+Finalize online integration and ensure data persistence.
+Fix bugs related to multiplayer or online features.
+Saturday:
+
+Playtest multiplayer features with a test group.
+Debug and refine interactions based on feedback.
+Sunday:
+
+Review any online features and adjust gameplay based on player feedback.
+Week 8: Testing and Bug Fixing
+Monday:
+
+Perform a full round of testing for all game systems (gem-matching, club-building, dancing).
+Identify and fix any major bugs or crashes.
+Tuesday:
+
+Refine animations and interactions (e.g., dancers, gem-matching).
+Fix any performance issues or UI glitches.
+Wednesday:
+
+Playtest the game to balance progression and economy (ensure the game isn’t too easy or too hard).
+Fix issues related to progression, money flow, or gameplay pacing.
+Thursday:
+
+Test edge cases and potential bugs (e.g., upgrading the club too quickly or matching too many gems).
+Implement fixes for rare bugs.
+Friday:
+
+Finalize all major gameplay systems and ensure everything is working smoothly.
+Conduct stress testing (make sure the game performs well under load).
+Saturday:
+
+Polish UI elements (visuals, fonts, buttons).
+Make the interface clean and intuitive.
+Sunday:
+
+Conduct a final full playthrough of the game, from start to finish.
+Address any remaining issues.
+Week 9: Final Features and Refinement
+Monday:
+
+Add final content (new dancers, music tracks, upgrade paths).
+Ensure all final features are added to the game.
+Tuesday:
+
+Implement sound effects for all key game actions (e.g., gem matches, dancing, tips).
+Test and polish all in-game audio.
+Wednesday:
+
+Add final UI polish (icons, transitions, color schemes).
+Test UI responsiveness and flow.
+Thursday:
+
+Ensure all gameplay mechanics are fully integrated and working.
+Do one last round of bug fixes for any remaining issues.
+Friday:
+
+Test all features to ensure they are bug-free and working correctly.
+Polish all content, including dancers, gem interactions, and upgrades.
+Saturday:
+
+Review monetization options (if you’re planning to implement any).
+Set up a system for earning revenue from the game (ads, in-app purchases).
+Sunday:
+
+Do a final review and playtest everything.
+Prepare the game for launch or deployment.
+Week 10: Launch Prep and Marketing
+Monday:
+
+Finalize all game assets (icons, splash screens, promotional materials).
+Prepare marketing materials (screenshots, trailer).
+Tuesday:
+
+Set up an app store account (Google Play, Apple App Store).
+Submit your game to app stores (if applicable).
+Wednesday:
+
+Write an engaging game description for the app store.
+Ensure the app description highlights key features (gem matching, club-building).
+Thursday:
+
+Begin social media marketing (tease game release on Twitter, Facebook).
+Reach out to influencers or YouTubers for reviews.
+Friday:
+
+Create a website or landing page for your game.
+Set up a press kit or media contact page.
+Saturday:
+
+Start collecting user feedback through beta testing or early access.
+Use the feedback to make final adjustments before the full launch.
+Sunday:
+
+Celebrate your progress and game release!
+Plan post-launch updates or patches if needed.
